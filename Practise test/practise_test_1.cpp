@@ -1,3 +1,8 @@
+/*In a railway station, there are multiple customers trying to buy train tickets. However, there are limited ticketing counters or booking agents, so customers need to wait their turn to be served. Construct a queue using an Singly linked list to serve customers. Provide following options
+Arrival of customer at ticketing system
+Serve customer for ticket booking
+Display all waiting customers*/
+
 #include <iostream>
 #include <string>
 
