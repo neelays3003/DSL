@@ -193,7 +193,7 @@ public:
         BorrowedBook* current = front; // Start from the front
         while (current != NULL) {
             current->display(); // Display each returned book
-            current = current->next; // Move to the next book
+             current = current->next; // Move to the next book
         }
         cout << endl;
     }
@@ -239,7 +239,7 @@ public:
         }
     }
 
-    // Function to display all borrowed books
+    // Function to display all borrowed booksz
     void displayBorrowedBooks() {
         borrowedBooksQueue.displayBorrowedBooks(); // Show all borrowed books
     }
@@ -253,6 +253,7 @@ public:
     void displayBooks() {
         libraryStack.displayLibraryStack(); // Show all books in the library stack
     }
+
 };
 
 // Main function to run the library management system
